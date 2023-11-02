@@ -1,0 +1,58 @@
+.container {
+    width: 669px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+  }
+
+.main-container{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+.navbar {
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    background-color: lime;
+  }
+
+.footer {
+    border-radius: 3px;
+    padding: 20px;
+    color: white;
+    background-color: blue;
+}
+
+.section {
+    border-radius: 3px;
+    padding: 20px;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    margin: 3px;
+}
+
+.orange {
+    background-color: orange;
+    flex-grow: 2;
+    margin: 3px;
+}
+
+.pink {
+    background-color: pink;
+    flex-grow: 2;
+    margin: 3px;
+}
